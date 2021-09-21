@@ -1,16 +1,43 @@
-# e_commerce
+<div align="center"> 
+  
+# BitkiSepeti
+## Not completed yet.
+  
+</div>
 
-A new Flutter project.
 
-## Getting Started
 
-This project is a starting point for a Flutter application.
+<p float="left">
+&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+<img src=https://github.com/creatornadiran/BitkiSepeti/blob/master/screenshots/Screenshot_1632257895.png width="20%">
+&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+<img src=https://github.com/creatornadiran/BitkiSepeti/blob/master/screenshots/Screenshot_1632257906.png width="20%">
+&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+<img src=https://github.com/creatornadiran/BitkiSepeti/blob/master/screenshots/Screenshot_1632257909.png width="20%">
+</p>
+ 
 
-A few resources to get you started if this is your first Flutter project:
+<p float="left">
+&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+<img src=https://github.com/creatornadiran/BitkiSepeti/blob/master/screenshots/Screenshot_1632257912.png width="20%">
+&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+<img src=https://github.com/creatornadiran/BitkiSepeti/blob/master/screenshots/Screenshot_1632257939.png width="20%">
+&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+<img src=https://github.com/creatornadiran/BitkiSepeti/blob/master/screenshots/Screenshot_1632257948.png width="20%">
+</p>
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+<p float="left">
+&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+<img src=https://github.com/creatornadiran/BitkiSepeti/blob/master/screenshots/Screenshot_1632257951.png width="20%">
+&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+<img src=https://github.com/creatornadiran/BitkiSepeti/blob/master/screenshots/Screenshot_1632257957.png width="20%">
+&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+<img src=https://github.com/creatornadiran/BitkiSepeti/blob/master/screenshots/Screenshot_1632257960.png width="20%">
+</p>
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+
+<img src=https://github.com/creatornadiran/BitkiSepeti/blob/master/screenshots/Screenshot_1632257987.png width="20%">
+
+
+## How Can I try?
+You can try by downloading the file inside the APK folder to your android device.
