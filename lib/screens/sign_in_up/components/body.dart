@@ -18,7 +18,7 @@ class _SignBodyState extends State<SignBody> {
   Widget build(BuildContext context) {
     return SafeArea(
       child: SizedBox(
-        width: double.infinity,
+        width: width,
         child: Column(
           children: [
             Padding(
@@ -37,48 +37,44 @@ class _SignBodyState extends State<SignBody> {
                     Container(
                       width: 120,
                       height: 35,
-                      child: Expanded(
-                        child: TextButton(
-                          style: ButtonStyle(
-                            backgroundColor: MaterialStateProperty.all<Color>(
-                                signup ? Colors.transparent : SecondaryColor1),
-                          ),
-                          onPressed: () {
-                            setState(() {
-                              signup = false;
-                            });
-                          },
-                          child: Text(
-                            'Giriş Yap',
-                            style: TextStyle(
-                                color: TextColor,
-                                fontSize: 16.0,
-                                fontFamily: 'WorkSansSemiBold'),
-                          ),
+                      child: TextButton(
+                        style: ButtonStyle(
+                          backgroundColor: MaterialStateProperty.all<Color>(
+                              signup ? Colors.transparent : SecondaryColor1),
+                        ),
+                        onPressed: () {
+                          setState(() {
+                            signup = false;
+                          });
+                        },
+                        child: Text(
+                          'Giriş Yap',
+                          style: TextStyle(
+                              color: TextColor,
+                              fontSize: 16.0,
+                              fontFamily: 'WorkSansSemiBold'),
                         ),
                       ),
                     ),
                     Container(
                       width: 120,
                       height: 35,
-                      child: Expanded(
-                        child: TextButton(
-                          style: ButtonStyle(
-                            backgroundColor: MaterialStateProperty.all<Color>(
-                                signup ? SecondaryColor1 : Colors.transparent),
-                          ),
-                          onPressed: () {
-                            setState(() {
-                              signup = true;
-                            });
-                          },
-                          child: Text(
-                            'Kayıt Ol',
-                            style: TextStyle(
-                                color: TextColor,
-                                fontSize: 16.0,
-                                fontFamily: 'WorkSansSemiBold'),
-                          ),
+                      child: TextButton(
+                        style: ButtonStyle(
+                          backgroundColor: MaterialStateProperty.all<Color>(
+                              signup ? SecondaryColor1 : Colors.transparent),
+                        ),
+                        onPressed: () {
+                          setState(() {
+                            signup = true;
+                          });
+                        },
+                        child: Text(
+                          'Kayıt Ol',
+                          style: TextStyle(
+                              color: TextColor,
+                              fontSize: 16.0,
+                              fontFamily: 'WorkSansSemiBold'),
                         ),
                       ),
                     ),
@@ -95,50 +91,47 @@ class _SignBodyState extends State<SignBody> {
               height: height * 0.02,
             ),
             Expanded(
-              child: Align(
-                alignment: FractionalOffset.bottomCenter,
-                child: Container(
-                  decoration: BoxDecoration(
-                      gradient: LinearGradient(
-                          begin: Alignment.bottomCenter,
-                          end: Alignment.topCenter,
-                          colors: [SecondaryColor1, Colors.white])),
-                  child: Column(
-                    children: [
-                      Text(
-                        signup
-                            ? "Sosyal Hesabınız ile Kaydolun"
-                            : "Sosyal Hesabınız ile Giriş Yapın",
-                        style: TextStyle(
-                          fontSize: 17,
+              child: Container(
+                decoration: BoxDecoration(
+                    gradient: LinearGradient(
+                        begin: Alignment.bottomCenter,
+                        end: Alignment.topCenter,
+                        colors: [SecondaryColor1, Colors.white])),
+                child: Column(
+                  children: [
+                    Text(
+                      signup
+                          ? "Sosyal Hesabınız ile Kaydolun"
+                          : "Sosyal Hesabınız ile Giriş Yapın",
+                      style: TextStyle(
+                        fontSize: 17,
+                      ),
+                      textAlign: TextAlign.center,
+                    ),
+                    Row(
+                      mainAxisAlignment: MainAxisAlignment.center,
+                      children: [
+                        SocialCard(
+                          icon: "assets/icons/facebook.svg",
+                          press: () {},
                         ),
-                        textAlign: TextAlign.center,
-                      ),
-                      Row(
-                        mainAxisAlignment: MainAxisAlignment.center,
-                        children: [
-                          SocialCard(
-                            icon: "assets/icons/facebook.svg",
-                            press: () {},
-                          ),
-                          SizedBox(
-                            width: width * 0.01,
-                          ),
-                          SocialCard(
-                            icon: "assets/icons/google.svg",
-                            press: () {},
-                          ),
-                          SizedBox(
-                            width: width * 0.01,
-                          ),
-                          SocialCard(
-                            icon: "assets/icons/twitter.svg",
-                            press: () {},
-                          ),
-                        ],
-                      ),
-                    ],
-                  ),
+                        SizedBox(
+                          width: width * 0.01,
+                        ),
+                        SocialCard(
+                          icon: "assets/icons/google.svg",
+                          press: () {},
+                        ),
+                        SizedBox(
+                          width: width * 0.01,
+                        ),
+                        SocialCard(
+                          icon: "assets/icons/twitter.svg",
+                          press: () {},
+                        ),
+                      ],
+                    ),
+                  ],
                 ),
               ),
             ),

@@ -8,7 +8,6 @@ class UserCart extends ChangeNotifier {
     products_in_cart.forEach((key, value) {
       sum += value;
     });
-    notifyListeners();
     return sum;
   }
 
